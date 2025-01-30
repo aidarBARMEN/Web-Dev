@@ -1,0 +1,128 @@
+/* Устанавливаем фон всей страницы */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Контейнер всей страницы */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px; /* Фиксированная ширина */
+}
+
+/* Левая часть с логотипом и текстом */
+.left-section {
+    width: 50%;
+}
+
+.left-section img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #1c1e21;
+    line-height: 28px;
+}
+
+/* Правая часть с формой */
+.right-section {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Поля ввода */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Кнопка "Вход" */
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Ссылка "Забыли пароль?" */
+.login-form a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b72a !important; 
+    color: white !important; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.register-btn:hover {
+    background-color: #36a420 !important; /* Темно-зеленый */
+}
+footer{
+    width:100%;
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #737377;
+    position:absolute;
+    bottom:0;
+    left: 0;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.languages a{
+    color: #7373373;
+    text-decoration: none;
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
+
+.more-languages{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
