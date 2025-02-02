@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+}
+
+main {
+    flex: 1; /* Позволяет занять всё доступное место */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+/* Главный контейнер */
+.container {
+    display: flex;
+    flex-direction: row; /* Размещаем элементы в строку */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    max-width: 1300px;
+    width: 90%;
+}
+
+/* Контейнер для формы и регистрации */
+.form-container {
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    align-items: center;
+    width: 350px;
+}
+
+/* Секция формы */
+.form-section {
+    background: white;
+    padding: 30px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+/* Блок "У вас ещё нет аккаунта?" */
+.register {
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px; /* Отступ от формы */
+    width: 100%;
+}
+
+/* Кнопки загрузки приложений */
+.download {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.app-links a img {
+    width: 130px;
+    height: auto;
+}
+
+/* Логотип Instagram */
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Поля ввода */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+/* Кнопка входа */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Разделитель "ИЛИ" */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #444;
+    margin: 0 10px;
+}
+
+/* Кнопка входа через Facebook */
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1877F2;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    background: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.facebook-login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.facebook-login:hover {
+    color: #8e8e8e;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+/* "Забыли пароль?" */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    background: none;
+    color: #8e8e8e;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -80px;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,330 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Верхняя панель */
+.top-bar {
+    background-color: #0078D4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Основные стили для навигации */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Левая часть (Логотип + ссылки) */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Правая часть (All Microsoft + иконки) */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right img {
+    width: 20px;
+}
+
+/* Стили для кнопки "All Microsoft" (теперь она просто кнопка) */
+.disabled-btn {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Значки (Search, Cart, Sign In) */
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.icon img {
+    width: 18px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    background: #0067b8;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #0055a4;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    padding: 20px;
+    font-size: 12px;
+}
+
+/* 🔵 Синяя полоса под навигацией */
+.blue-banner {
+    background-color: #0078D4;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.blue-banner p {
+    margin: 0;
+}
+
+.blue-banner a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.blue-banner a:hover {
+    text-decoration: none;
+}
+
+/* Стили для блока категорий */
+.category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #0078D4;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.category-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/* Стили для секции товаров */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+/* Карточка товара */
+.product {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    text-align: left;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Картинка в карточке товара */
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+/* Контейнер текста */
+.product-content {
+    padding: 20px;
+}
+
+/* Заголовок товара */
+.product h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Описание товара */
+.product p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Кнопка */
+.product a {
+    display: inline-block;
+    background-color: #0067b8;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product a:hover {
+    background-color: #005a9e;
+}
+
+/* Отступ для Support */
+.support-link {
+    margin-right: 20px;
+}
+
+/* Стили для кнопок управления */
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Отступ от блока */
+    gap: 15px;
+}
+
+.carousel-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.carousel-btn:hover {
+    color: #0078D4;
+}
+
+/* Стили для точек-индикаторов */
+.carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+.carousel-indicator.active {
+    background-color: black;
+}
