@@ -34,21 +34,17 @@
             </div>
 
             <div class="nav-right">
-                <a href="#" class="icon">All Microsoft ▼</a>
-
-                <!-- 🔎 Search -->
+                <button class="dropbtn">All Microsoft ▼</button>
                 <a href="https://www.microsoft.com/en-us/search" class="icon">
                     <img src="/resources/search.png" alt="Search Icon">
                     <span>Search</span>
                 </a>
 
-                <!-- 🛒 Cart -->
                 <a href="https://www.microsoft.com/en-us/cart" class="icon">
                     <img src="/resources/cart.png" alt="Cart Icon">
                     <span>Cart</span>
                 </a>
 
-                <!-- 🔐 Sign In -->
                 <a href="https://login.microsoft.com/" class="icon">
                     <img src="/resources/signin.png" alt="Sign in">
                     <span>Sign in</span>
@@ -73,13 +69,16 @@
             <img src="resources/sufrace-pro.png" alt="Surface Pro">
         </div>
     </section>
-    <div class="carousel-controls">
-        <button class="carousel-btn pause">&#10074;&#10074;</button>
-        <button class="carousel-btn prev">&#10094;</button>
-        <span class="carousel-indicator active"></span>
-        <span class="carousel-indicator"></span>
-        <button class="carousel-btn next">&#10095;</button>
-    </div>
+
+    <!-- 🔘 Элементы управления (пауза, переключатели) -->
+    <section class="carousel-controls">
+        <button>⏸</button>
+        <button>◀</button>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <button>▶</button>
+    </section>
+
     <!-- 📌 Навигация по категориям -->
     <section class="category-nav">
         <div class="category-item">
@@ -117,6 +116,34 @@
                 <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40" alt="Microsoft 365 Icon">
                 <span>Choose your Microsoft 365</span>
             </a>
+        </div>
+    </section>
+
+    <!-- 🛍️ Основные товары -->
+    <section class="products">
+        <div class="product">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-AI-7Ed-Platinum-MC006?wid=406&hei=230&fit=crop" alt="Surface Laptop">
+            <h3>Surface Laptop, Copilot+ PC</h3>
+            <p>Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="product">
+            <img src="resources/xbox.avif" alt="Xbox Series S">
+            <h3>Xbox Series S</h3>
+            <p>Next-gen performance in the smallest Xbox ever.</p>
+            <a href="#" class="btn">Shop Xbox Series S</a>
+        </div>
+        <div class="product">
+            <img src="resources/control.avif" alt="Xbox Controllers">
+            <h3>Xbox controllers</h3>
+            <p>Elite, wireless, adaptive—find the controller that fits your style of play.</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+        <div class="product">
+            <img src="resources/number4.avif" alt="Developer Direct">
+            <h3>Xbox presents Developer_Direct</h3>
+            <p>Tune in January 23 at 10 AM PT to hear directly from the developers.</p>
+            <a href="#" class="btn">Learn more</a>
         </div>
     </section>
 
