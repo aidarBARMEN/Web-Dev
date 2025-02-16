@@ -1,0 +1,131 @@
+[
+    {
+        "name" : "Арбузик для футбола one size D25",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h49/h42/85869280165918.jpg?format=preview-large",
+        "description" : [
+            "Тип: Для футбола",
+            "Диаметр: 25",
+            "Материал: Резина"
+        ],
+        "id" : 1,
+        "rating" : 5.0,
+        "price" : 250,
+        "link" : "https://kaspi.kz/shop/p/arbuzik-dlja-futbola-one-size-d25-118849251/?c=391010000"
+    },
+    {
+        "name" : "Мяч Футбольный мяч для футбола",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hb1/hf4/86402949546014.jpg?format=gallery-medium",
+        "description" : [
+            "Тип: Для футбола",
+            "Диаметр: 25",
+            "Label: Barca"
+        ],
+        "id" : 2,
+        "rating" : 5.0,
+        "price" : 1159,
+        "link" : "https://kaspi.kz/shop/p/futbol-nyi-mjach-dlja-futbola-one-size-d23-25-sm-120876037/?c=391010000"
+    },
+    {
+        "name" : "Мяч Футбольный мяч Jabulani для футбола 5",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/pac/p54/2001286.jpeg?format=gallery-medium",
+        "description" : [
+            "Тип: Для футбола",
+            "Диаметр: 25",
+            "Label: Jabulani"
+        ],
+        "id" : 3,
+        "rating" : 5.0,
+        "price" : 2499,
+        "link" : "https://kaspi.kz/shop/p/futbol-nyi-mjach-jabulani-dlja-futbola-5-d68-70-128242364/?c=391010000"
+    },
+    {
+        "name" : "Корм Felix кусочки в желе ягненок 75 г 1 шт",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/p05/p11/5058379.jpg?format=gallery-medium",
+        "description" : [
+            "Возраст животного: взрослые(1-6 лет)",
+            "Текстура: кусочки в желе",
+            "Ингридиент: Мясо"
+        ],
+        "id" : 4,
+        "rating" : 5.0,
+        "price" : 150,
+        "link" : "https://kaspi.kz/shop/p/felix-kusochki-v-zhele-jagnenok-75-g-1-sht-100218721/?c=391010000"
+    },
+    {
+        "name" : "Корм Darling кусочки в соусе лосось 75 г 1 шт",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hf2/h66/84798115971102.jpg?format=gallery-medium",
+        "description" : [
+            "Возраст животного: взрослые(1-6 лет)",
+            "Ингридиент: Мясо"
+        ],
+        "id" : 5,
+        "rating" : 4.8,
+        "price" : 146,
+        "link" : "https://kaspi.kz/shop/p/darling-kusochki-v-souse-losos-75-g-1-sht-110583736/?c=391010000"
+    },
+    {
+        "name" : "Корм Whiskas рагу курица 85 г 1 шт",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/p5d/p56/12029295.jpg?format=gallery-medium",
+        "description" : [
+            "Возраст: для всех возрастов",
+            "Ингридиент: курица"
+        ],
+        "id" : 6,
+        "rating" : 4.8,
+        "price" : 190,
+        "link" : "https://kaspi.kz/shop/p/whiskas-ragu-kuritsa-85-g-1-sht-114720064/?c=391010000"
+    },
+    {
+        "name" : "DELUXEAUTO TK15 Mitsubishi Lancer 2007-2012 4Gb+64Gb + камера заднего вида в штатное место Mitsubishi",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h12/h67/86131608289310.png?format=gallery-medium",
+        "description" : [
+            "OS: android",
+            "Марка: Mitsubishi",
+            "Русский язык: есть",
+            "Дисплей: QLED"
+        ],
+        "id" : 7,
+        "rating" : 5,
+        "price" : 59999,
+        "link" : "https://kaspi.kz/shop/p/deluxeauto-tk15-mitsubishi-lancer-2007-2012-4gb-64gb-kamera-zadnego-vida-v-shtatnoe-mesto-mitsubishi-119837194/?c=391010000"
+    },
+    {
+        "name" : "Набережные челны туалетная бумага 2-слойный 1 шт, полиэстер",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h4f/h75/64532316323870.jpg?format=gallery-medium",
+        "description" : [
+            "Тип: туалетная бумага",
+            "Цвет: белый, серый",
+            "Особенности: не содержит спирт"
+        ],
+        "id" : 8,
+        "rating" : 5,
+        "price" : 152,
+        "link" : "https://kaspi.kz/shop/p/naberezhnye-chelny-tualetnaja-bumaga-2-sloinyi-1-sht-poliester-104923161/?c=391010000"
+    },
+    {
+        "name" : "Тестостероновый бустер Force Factor Alpha King Immortal 180 капсул",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h10/h08/82342785777694.jpg?format=gallery-medium",
+        "description" : [
+            "Тип: трибулус",
+            "Форма выпуска: капсулы/таблетки",
+            "Вкус: нейтральный"
+        ],
+        "id" : 9,
+        "rating" : 5,
+        "price" : 95050,
+        "link" : "https://kaspi.kz/shop/p/force-factor-alpha-king-immortal-180-kapsul-112182359/?c=391010000"
+    }, 
+    {
+        "name" : "Джинсовка как у...",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/pc4/p54/9437677.jpg?format=gallery-medium",
+        "description" : [
+            "Носят: Крутые",
+            "С чем носить: кепка ",
+            "Производство: бангладеш"
+        ],
+        "id" : 10,
+        "rating" : 5,
+        "price" : 69000,
+        "link" : "https://kaspi.kz/shop/p/dzhinsovaja-kurtka-lc-waikiki-s4aa43z8-h45-goluboi-m-130350921/?c=391010000"
+    }
+]
