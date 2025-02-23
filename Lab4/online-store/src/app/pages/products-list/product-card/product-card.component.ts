@@ -3,17 +3,20 @@ import { Product } from '../products.models';
 import { CurrencyPipe, NgOptimizedImage } from '@angular/common';
 import { RatingPipe } from './rating.pipe';
 import { PrimaryButtonComponent } from "../../../components/primary-button/primary-button.component";
+import { RouterModule } from '@angular/router'; 
+
 
 @Component({
   selector: 'app-product-card',
   standalone: true,
-  imports: [CurrencyPipe, RatingPipe, PrimaryButtonComponent, NgOptimizedImage],
+  imports: [CurrencyPipe, RatingPipe, PrimaryButtonComponent, NgOptimizedImage,RouterModule],
   templateUrl: './product-card.component.html',
   styleUrl: './product-card.component.css'
 })
 export class ProductCardComponent {
-  encodeProductURI(uri: string) { //wrapper method - sorry did not come up with a smarter way
+  encodeProductURI(uri: string) { 
     return encodeURIComponent(uri);
+    
   }
 
   @Input({required: true}) product! : Product;

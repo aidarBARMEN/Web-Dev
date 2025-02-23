@@ -1,0 +1,8 @@
+<div *ngIf="product">
+    <h2>{{ product.name }}</h2>
+    <img [src]="product.imageUrl" alt="{{ product.name }}">
+    <p>Цена: {{ product.price }} ₸</p>
+    <p>Рейтинг: {{ product.rating }} ⭐</p>
+    <p>{{ product.description[0] }}</p>
+    <a [href]="product.link" target="_blank">Купить</a>
+</div>
