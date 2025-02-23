@@ -8,14 +8,14 @@
         <p class="price">{{ product.price }} ₸</p>
         <p class="rating">Рейтинг {{ product.rating }}/5⭐</p>
         <div class="act-div">
-            <button (click)="likeProduct()" class="act" style="background-color: lightcoral;">❤ {{ product.likes }}</button>
+            <button (click)="likeProduct()" class="act" style="background-color: rgb(225, 40, 40);">❤ {{ product.likes }}</button>
             <button (click)="removeProduct()" class="act" style="background-color: red;">Удалить</button>
 
         </div>
         <div class="but-button" style="display: flex; gap: 5px;">
-            <a [href]="'https://t.me/share/url='+ product.link" target="_blank">
+            <!-- <a [href]="'https://t.me/share/url='+ product.link" target="_blank">
                 <button class="buy">Telegram</button>
-            </a>
+            </a> -->
             <a [href]="'https://wa.me/?text=' + product.link" target="_blank">
                 <button class="buy" style="background-color: #25D366;">Whatsapp</button>
             </a>
