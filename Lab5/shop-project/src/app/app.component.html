@@ -3,7 +3,7 @@
 
 <div>
     <div style="display:flex;
-justify-content: center;
+justify-content: left;
 align-items: center;
 background-color: #0dff00;
 padding: 0;
@@ -21,15 +21,6 @@ color: white;
                 {{category.name}}
             </button>
         </div>
-    </div>
-
-    <div>
-        <h1 style="padding-left: 50px; font-weight: bold; ">{{sortType}}</h1>
-        <select style="position: relative; height: 30px; width: 200px; padding-left: 30px; margin-left: 50px;" [(ngModel)]="sortType" (change)="sortProducts()">
-            <option *ngFor="let sort of sortTypes">{{sort}}</option>
-        </select>
-
-
     </div>
 
     <app-product-list *ngIf="selectedCategory" [selectedCategory]="selectedCategory"></app-product-list>

@@ -1,3 +1,4 @@
+import { Product } from '../models/product.model';
 import {Category} from "../models/product.model";
 export const PRODUCTS_DATA: Category[] =  [
      { name:"Корма",
@@ -24,8 +25,8 @@ export const PRODUCTS_DATA: Category[] =  [
       },
       {
         name: 'Корм Darling кусочки в соусе лосось 75 г 1 шт',
-        description: 'Смартфон Apple iPhone 16 Pro Max 256Gb черный',
-        price: 651455,
+        description: 'Корм для кошки',
+        price: 105,
         rating: 4.8,
         img: 'https://resources.cdn-kaspi.kz/img/m/p/hf2/h66/84798115971102.jpg?format=gallery-medium',
         link: 'https://kaspi.kz/shop/p/darling-kusochki-v-souse-losos-75-g-1-sht-110583736/?c=391010000',
@@ -39,7 +40,7 @@ export const PRODUCTS_DATA: Category[] =  [
        products: [
         {
           name: "Арбузик для футбола one size D25",
-          description: "Ноутбук Apple MacBook Pro 16.2 / 36 Гб SSD 1024 Гб  macOS  MX303RU A",
+          description: "Мячик для всех видов спорта",
           price: 250 ,
           rating: 4.9,
           img: "https://resources.cdn-kaspi.kz/img/m/p/h49/h42/85869280165918.jpg?format=preview-large",
@@ -84,7 +85,7 @@ export const PRODUCTS_DATA: Category[] =  [
           },
           {
             name: "Nakamichi NQ523BD 1 DIN",
-            description: "Стиральная машина Samsung WW90T4041CXLP серый",
+            description: "Магнитола для BMW M5 F90 competion",
             price: 15336,
             rating: 4.6,
             img: "https://resources.cdn-kaspi.kz/img/m/p/h1f/hed/86064655007774.jpg?format=gallery-medium",

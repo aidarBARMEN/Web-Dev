@@ -16,26 +16,5 @@ export class AppComponent {
   SelectCategory(category: Category){
     this.selectedCategory = category;
   }
-  public sortTypes: string[] = ['Сначала дорогие', 'Сначала дешевые', 'Высокий рейтинг'];
-  public sortType: string = 'Популярное';
-  
-  sortProducts() {
-    switch (this.sortType) {
-      case 'Сначала дорогие':
-        this.selectedCategory?.products.sort((a, b) => b.price - a.price);
-        break;
-  
-      case 'Сначала дешевые':
-        this.selectedCategory?.products.sort((a, b) => a.price - b.price);
-        break;
-  
-      case 'Высокий рейтинг':
-        this.selectedCategory?.products.sort((a, b) => (b.rating) - (a.rating));
-        break;
-  
-      default:
-        break;
-    }
-  }
 
 }

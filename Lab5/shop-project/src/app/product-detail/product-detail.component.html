@@ -1,0 +1,9 @@
+<div *ngIf="product">
+    <h1>{{ product.name }}</h1>
+    <img [src]="product.img" alt="{{ product.name }}">
+    <p>{{ product.description }}</p>
+    <p>Цена: {{ product.price }} ₸</p>
+    <p>Рейтинг: {{ product.rating }}/5⭐</p>
+    <a [href]="product.kaspiLink" target="_blank">Купить на Kaspi</a>
+</div>
+<a routerLink="/">Назад в магазин</a>

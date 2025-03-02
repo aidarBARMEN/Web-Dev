@@ -1,13 +1,9 @@
 import { TestBed } from '@angular/core/testing';
-import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [
-        RouterModule.forRoot([])
-      ],
       declarations: [
         AppComponent
       ],
@@ -20,17 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'shop-project'`, () => {
+  it(`should have as title 'lab6'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('shop-project');
+    expect(app.title).toEqual('lab6');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, shop-project');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('lab6 app is running!');
   });
 });
-// кнопка "info" должен переходить на product-detail компонент который я создал через роутинг 

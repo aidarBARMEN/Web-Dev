@@ -44,7 +44,7 @@
     margin-top: 1px;
     border-color: rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    background-color: #005F94;
+    background-color: #7e12eb;
 }
 
 .line {
@@ -88,4 +88,19 @@
 .rating {
     margin: 0px;
     color: #0089d0;
+}
+.kaspi-button {
+    background-color: #a70000;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kaspi-logo {
+    width: 30px; 
+    height: auto;
 }

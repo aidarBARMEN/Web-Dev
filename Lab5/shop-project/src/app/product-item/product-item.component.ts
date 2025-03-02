@@ -21,3 +21,4 @@ export class ProductItemComponent {
 
 
 }
+// через роутинг вся детализация продукта кнопка
