@@ -12,8 +12,8 @@ from api.serializers import CompanySerializer, VacancySerializer
 class CompanyViewSet(viewsets.ModelViewSet):
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
-
-
+#Django сам обрабатывает все действия с помощью ModelViewSet.
+#(GET, POST, PUT, DELETE)
 class VacancyViewSet(viewsets.ModelViewSet):
     queryset = Vacancy.objects.all()
     serializer_class = VacancySerializer
@@ -25,7 +25,7 @@ class VacancyViewSet(viewsets.ModelViewSet):
         return Vacancy.objects.all().order_by('id')
 
 
-    @action(detail=False, methods=['get'], url_path='top_ten')
+    @action(detail=False, methods=['get'], url_path='top_ten') #Со списком а не с одним объектом 
     def top_ten(self, request):
         vacancies = Vacancy.objects.order_by('-salary')[:10]
         serializer = VacancySerializer(vacancies, many=True)

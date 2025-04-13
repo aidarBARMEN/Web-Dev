@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12bfb45b-e68d-4c7e-9abc-00d27856fc3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/views/cbv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/views/fbv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/views/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/hh_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/hh_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab09/hh_back/hh_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/hh_back/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d38e77bb-083b-4cdb-bf8d-6bf235430cec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d38e77bb-083b-4cdb-bf8d-6bf235430cec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1be8f44-bccd-4af4-843c-a368c80707a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1be8f44-bccd-4af4-843c-a368c80707a7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hh_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hh_front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hh_front/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hh_front/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hh_front/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/main/main.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab09/hh_back/api/views/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/main/main.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/main/main.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/main/main.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hh_front/src/app/models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../hh_front/src/app/models.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ev0JbmOjP2WHc9YNj2V74nUBjJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Django Server.hh_back.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/abdussalamabdurakhimov/Desktop/code/webDevCode/Lab10/hh_back&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="hh_back" type="Python.DjangoServer" factoryName="Django server">
+      <module name="hh_back" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="hh_back.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12bfb45b-e68d-4c7e-9abc-00d27856fc3a" name="Changes" comment="" />
+      <created>1712769675184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712769675184</updated>
+      <workItem from="1712769676357" duration="12415000" />
+      <workItem from="1712863877747" duration="3351000" />
+      <workItem from="1713603491209" duration="2803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<ul *ngIf="loaded; else loading">
+  <li *ngFor="let company of companies ">
+    {{company.id}} - {{company.name}} <br>
+    {{company.description}}<br>
+    {{company.city}}<br>
+    {{company.address}}<br>
+
+
+
+
+  </li>
+</ul>
+
+
+<ng-template #loading>
+  <p>Companies are loading...</p>
+</ng-template>
